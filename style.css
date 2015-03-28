@@ -67,21 +67,22 @@ p.todo {
     text-decoration: underline;
 }
 
-.todo.infoBar {
+.todo ul {
+    list-style-type: none;
+}
+
+.infoBar.todo {
     max-width: 400px;
     position: relative;
     top: 300px;
+    float: left;
     
-}
-
-.todo ul {
-    list-style-type: none;
 }
 
 .infoBar {
     padding: 5px 20px 5px 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255,.5);
+    background-color: rgba(255, 255, 255, .5);
     color: black;
     border-radius: 30px;
     width: 80%;
@@ -89,6 +90,17 @@ p.todo {
     margin-top: 10px;
     position: relative;
     top: 100px;
+}
+
+.infoBar.todoComplete {
+    background-color: rgba(9, 240, 9, 0.5);
+    float: right;
+}
+
+.todoComplete ul {
+    list-style-type: none;
+    text-decoration: line-through;
+    
 }
 
 main {

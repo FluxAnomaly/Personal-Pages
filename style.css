@@ -2,6 +2,7 @@ main {
     background-color: rgba(0,0,0,.4);
     padding: 10px 60px 150px 60px;
     border-radius: 30px;
+    margin: 25px;
 }
 
 img.myPic {
@@ -34,7 +35,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 1000px;
     margin: 0 auto;     /* " 0 auto" centers objects */
     font-size: 100%;
@@ -61,8 +62,9 @@ h1, h2, h3, h4, h5, h6, p {
 .infoBar.todo {
     max-width: 300px;
     position: relative;
-    top: 100px;
-    float: left;
+    top: 10px;
+    float: left;  
+    margin: 25px;
 }
 
 p.todo {
@@ -109,5 +111,12 @@ p.todo {
     img.myPic {
         left: 30px;
     }
+    
+    .infoBar.todo {
+    float: none;
+    min-width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
     
 }

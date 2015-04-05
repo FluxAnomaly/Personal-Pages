@@ -1,7 +1,17 @@
-main {
-    background-color: rgba(0,0,0,.4);
-    padding: 10px 60px 150px 60px;
+ 
+.header {
+    
+
+}
+
+#wrap1 { 
+	width: 150px; 
+    height: 150px;
+	position: absolute;
+    top: 25px;
+    margin-left: 100px;
     border-radius: 30px;
+    box-shadow: 10px 10px 10px #3c3c3c;
 }
 
 img.myPic {
@@ -9,21 +19,16 @@ img.myPic {
     border-radius: 30px;
     width: 150px; 
     height: 150px;
-    box-shadow: 10px 10px 10px #3c3c3c;
-    position: relative;
-    top: 40px;
-    left: 70px;
 }
 
-.name {
-    font-size: 2em;
-    width: 60%;
+#name {
+    font-size: 3em;
+    width: 50%;
     position:relative;
-    left: 180px;
-/*    top: 20px;*/
+    left: 40%;
+    top: 10px;
     text-shadow: 10px 10px 10px #3c3c3c;
     z-index: 2;
-    display: inline-block;
 }
 
 body {
@@ -36,13 +41,19 @@ body {
     background-size: cover;
     min-width: 400px;
     max-width: 1000px;
-    margin: 0 auto;     /* " 0 auto" centers objects */
+    margin: 0 auto;
+    /* " 0 auto" makes the margin property center the wrapper */
     font-size: 100%;
+    
 }
+
+
 
 h1, h2, h3, h4, h5, h6, p {
     color: white;
+    
 }
+
 
 .infoBar {
     padding: 5px 20px 5px 20px;
@@ -50,8 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: rgba(255, 255, 255, .5);
     color: black;
     border-radius: 30px;
-/*    border: 1px solid black;*/
-    width: 40%;     
+    width: 80%;
     margin: 0 auto;
     margin-top: 10px;
     position: relative;
@@ -59,10 +69,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .infoBar.todo {
-    max-width: 300px;
+    max-width: 400px;
     position: relative;
-    top: 100px;
+    top: 300px;
     float: left;
+    
 }
 
 p.todo {
@@ -74,8 +85,6 @@ p.todo {
 
 .todo ul {
     list-style-type: none;
-    position: relative;
-    right: 20px;   /* This should not be needed.*/
 }
 
 .infoBar.todoComplete {
@@ -84,7 +93,14 @@ p.todo {
 }
 
 .todoComplete ul {
-/*    list-style-type: none;*/
+    list-style-type: none;
     text-decoration: line-through;
     
 }
+
+main {
+    background-color: rgba(0,0,0,.4);
+    padding: 10px 60px 150px 60px;
+    border-radius: 30px;
+}
+

@@ -88,3 +88,26 @@ p.todo {
     text-decoration: line-through;
     
 }
+
+/* -------------   Begin @media query section ------------ */
+@media (max-width: 750px) {
+    .name {
+        left: 90px;
+    }
+}
+
+@media (max-width: 600px) {
+    .name {
+        font-size: 100%;
+        left: 50px;
+        top: 0px;
+        max-width: 30%;
+    }
+    
+/* .name rule causes header area to slightly move down. Find & fix problem.*/
+    
+    img.myPic {
+        left: 30px;
+    }
+    
+}

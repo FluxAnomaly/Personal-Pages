@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     top: 10px;
     float: left;  
-    margin: 25px;
+/*    margin: 25px;*/
 }
 
 p.todo {
@@ -91,14 +91,19 @@ p.todo {
     
 }
 
+.footer {
+    margin: 25px;
+}
+
 /* -------------   Begin @media query section ------------ */
+
 @media (max-width: 750px) {
     .name {
         left: 90px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
     .name {
         font-size: 100%;
         left: 50px;
@@ -112,11 +117,14 @@ p.todo {
         left: 30px;
     }
     
-    .infoBar.todo {
+}
+
+@media (max-width: 500px) {
+  .infoBar.todo {
     float: none;
     min-width: 250px;
     margin: 0 auto;
     margin-top: 20px;
+    }  
 }
-    
-}
+
